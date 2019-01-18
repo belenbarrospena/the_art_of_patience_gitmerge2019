@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>The art of patience or Why you should bother teaching Git to designers</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- ADSS PGR Conference 2018 -->
+
+				  <section>
+						<h1>The art of <span style="color:#13daec;">patience</span></h1>
+						<h4>or Why you should bother <br/>
+						teaching <span style="color:#13daec;">Git</span> to a <span style="color:#13daec;">designer</span></h4>
+					</section>
+
+					<section data-background="resources/me.jpg"></section>
+
+					<section data-background="resources/sleepy_turtle.jpg"></section>
+
+					<section>
+						<h1>Interaction <span style="color:#13daec;">design</span></h1>
+					</section>
+
+					<section data-background="resources/bill_mogridge.jpg"></section>
+
+					<section>
+						<p style="font-size:1.2em;text-align:left;">Like industrial design, the discipline (...) would <span style="color:#13daec;">start from</span> the needs and desires of <span style="color:#13daec;">the people</span> who use a product or service</p>
+						<p style="font-size:0.6em;color:#9f9f9f;text-align:left;margin-top:2em;">Bill Mogridge, <em>Designing Interactions</em> (2007:14)</p>
+					</section>
+
+					<section data-transition="slide-in fade-out">
+						<h2>Building software that makes sense to the people who use it</h2>
+					</section>
+
+					<section data-transition="fade-in slide-out">
+						<h2>Building <span style="color:#13daec;">software that makes sense</span> to the people who use it</h2>
+					</section>
+
+					<section data-background="resources/john_maeda.jpg"></section>
+
+					<section data-background="resources/wizarding_equipment.png"></section>
+
+					<section>
+						<h2>Why am I doing this?</h2>
+						<ol>
+							<li class="fragment" style="padding-bottom:.5em;">I am bit broke</li>
+							<li class="fragment" style="padding-bottom:.5em;">Git is a powerful tool for designers</li>
+							<li class="fragment">Some stuff might be reusable</li>
+						</ol>
+					</section>
+
+					<section>
+						<h2>I want you to <span style="color:#13daec;">teach Git</span> to the designers working with you</h2>
+					</section>
+
+					<section data-background="resources/flour.jpg"></section>
+
+					<section>
+						<img src="resources/yoctoproject.png" style="margin-top:0px;">
+					</section>
+
+					<section data-transition="slide-in fade-out">
+						<p>The Yocto Project provides a set of tools for creating and maintaining customised Linux distributions for embedded devices, between them a build system.</p>
+					</section>
+
+					<section data-transition="fade-in slide-out">
+						<p>The Yocto Project <span style="color:#111;">provides</span> a <span style="color:#111;">set</span> of <span style="color:#111;">tools</span> for <span style="color:#111;">creating</span> and <span style="color:#111;">maintaining customised Linux distributions</span> for <span style="color:#111;">embedded devices</span>, between them a <span style="color:#111;">build system</span>.</p>
+					</section>
+
+					<section data-background="resources/whatever.jpg"></section>
+
+					<section data-background="resources/paul_eggleton.png"></section>
+
+					<section>
+						<img src="resources/toaster.png">
+					</section>
+
+					<section data-background="resources/dev_process.jpg"></section>
+
+					<section>
+						<img src="resources/always_asking.png">
+					</section>
+
+					<section>
+						<h2>1. Teach on a <span style="color:#13daec;">need to know</span> basis</h2>
+					</section>
+
+					<section>
+						<img src="resources/poky_contrib.png">
+					</section>
+
+					<section>
+						<pre style="text-align:center;font-size:1.2em;">git clone [WIP_REPO]</pre>
+					</section>
+
+					<section>
+						<img src="resources/branch_thingies.png">
+					</section>
+
+					<section>
+						<pre style="font-size:1.2em;text-align:center;">git checkout [WIP_BRANCH]</pre>
+					</section>
+
+					<section>
+						<h2>2. <span style="color:#13daec;">Avoid</span> the Git <span style="color:#13daec;">jargon</span></h2>
+					</section>
+
+					<section>
+						<h2>3. <span style="color:#13daec;">Don't bother</span> too much <span style="color:#13daec;">with the concepts</span> at the beginning</h2>
+					</section>
+
+					<section data-transition="slide-in fade-out">
+						<pre style="font-size:1.2em;text-align:center;">git pull</pre>
+					</section>
+
+					<section data-transition="fade-in slide-out">
+						<pre style="font-size:1.2em;text-align:center;">git fetch</pre>
+					</section>
+
+					<section data-background="resources/idontcare.jpg"></section>
+
+					<section>
+						<pre style="font-size:1.2em;text-align:center;">git checkout -b [NEW_BRANCH]</pre>
+					</section>
+
+					<section>
+						<pre style="font-size:1.2em;text-align:center;">git add [FILES]</pre>
+						<pre style="font-size:1.2em;text-align:center;">git commit -s</pre>
+					</section>
+
+					<section>
+						<pre style="font-size:1.2em;">git branch -d [BRANCH]</pre>
+						<pre style="font-size:1.2em;">git branch -D [BRANCH]</pre>
+						<pre style="font-size:1.2em;">git push --delete [REMOTE] [BRANCH]</pre>
+					</section>
+
+					<section>
+						<pre style="font-size:1.2em;text-align:center;">git commit --amend</pre>
+					</section>
+
+					<section>
+						<pre style="font-size:1.2em;text-align:center;">git push [REMOTE] [BRANCH]</pre>
+					</section>
+
+					<section>
+						<h2>4. Never do things for: <span style="color:#13daec;">do things with</span> your designers</h2>
+					</section>
+
+					<section>
+						<h2>5. Encourage designers to take notes and <span style="color:#13daec;">keep a cheat sheet</span></h2>
+					</section>
+
+					<section data-background="resources/independence.jpg"></section>					
+
+					<section>
+						<h1 style="text-align:left;">Questions?</h1>
+						<p style="text-align:left;">Slides at <a href="https://belenbarrospena.github.io/phd-ADSS-PGR-2018">https://tinyurl.com/yb489myc</a></p>
+						<p style="text-align:left;">Presentation content at <a href="https://github.com/belenbarrospena/phd-ADSS-PGR-2018/blob/master/README.md">https://tinyurl.com/ycylrtgp</a></p>
+						<h3 style="text-align:left;margin-top:1em;">Get in touch</h3>
+						<p style="text-align:left;"><a href="mailto:belen.pena@northumbria.ac.uk">belen.pena@northumbria.ac.uk</p>
+					</section>
+
+				<section>
+					<h3 style="text-align:left;">Credits</h3>
+					<p style="text-align:left;font-size:.7em;"><a href="https://www.flickr.com/photos/kj-an/2195774925/">Sleepy Turtle</a> by <a href="https://www.flickr.com/photos/kj-an/">Kevin Jones</a> - <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
+					<p style="text-align:left;font-size:.7em;"><a href="https://www.flickr.com/photos/dotx3/4757630757/">Bill Moggridge at CIID</a> by <a href="https://www.flickr.com/photos/dotx3/">Mayo Nissen</a> - <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a></p>
+					<p style="text-align:left;font-size:.7em;"><a href="https://www.flickr.com/photos/darrenkw/26644032583/">the Making of Harry Potter - Wiseacre's Wizarding Equipment</a> by <a href="https://www.flickr.com/photos/darrenkw/">Darren</a> - <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a></p>
+					<p style="text-align:left;font-size:.7em;"><a href="https://www.flickr.com/photos/malakhkelevra/5611241912/">Flour</a> by <a href="https://www.flickr.com/photos/malakhkelevra/">Michelangelo Carrieri</a> - <a href="https://creativecommons.org/licenses/by-nd/2.0">CC BY-ND 2.0</a></p>
+					<p style="text-align:left;font-size:.7em;"><a href="https://www.flickr.com/photos/thomashawk/4547136964/">Whatever</a> by <a href="https://www.flickr.com/photos/thomashawk/">Thomas Hawk</a> - <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a></p>
+					<p style="text-align:left;font-size:.7em;"><a href="https://www.xkcd.com/2051/">Bad Opinions</a> by <a href="https://www.xkcd.com">xkcd</a> - <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a></p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
